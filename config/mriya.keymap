@@ -27,17 +27,17 @@
 
         default_layer {
             bindings = <
-            &kp ESC  &kp N1      &kp N2     &kp N3     &kp N4    &kp N5       &kp N6         &kp N7     &kp N8                  &kp N9    &kp N0       &kp MINUS
-&kp LWIN    &kp TAB   &kp Q       &kp W      &kp E      &kp R     &kp T        &kp Y          &kp U      &kp I                   &kp O     &kp P        &kp LBKT  &mt RWIN RBKT
-          &kp LSHFT   &kp A       &kp S      &kp D      &kp F     &kp G        &kp H          &kp J      &kp K                   &kp L  &kp SEMI   &mt RSHFT SQT
-          &kp LCTRL   &kp Z       &kp X      &kp C      &kp V     &kp B        &kp N          &kp M  &kp COMMA                 &kp DOT  &kp FSLH  &mt RCTRL BSLH
-                             &lt 2 LWIN  &lt 1 TAB  &kp SPACE  &kp LALT    &kp ENTER  &kp BACKSPACE  &lt 1 DEL  &mt RGUI RIGHT_BRACKET
+            &kp ESC  &kp N1           &kp N2     &kp N3     &kp N4    &kp N5       &kp N6         &kp N7     &kp N8              &kp N9    &kp N0       &kp MINUS
+&kp LWIN    &kp TAB   &kp Q            &kp W      &kp E      &kp R     &kp T        &kp Y          &kp U      &kp I               &kp O     &kp P        &kp LBKT  &mt RWIN RBKT
+          &kp LSHFT   &kp A            &kp S      &kp D      &kp F     &kp G        &kp H          &kp J      &kp K               &kp L  &kp SEMI   &mt RSHFT SQT
+          &kp LCTRL   &kp Z            &kp X      &kp C      &kp V     &kp B        &kp N          &kp M  &kp COMMA             &kp DOT  &kp FSLH  &mt RCTRL BSLH
+                             &lt 2 LS(LCTRL)  &lt 1 TAB  &kp SPACE  &kp LALT    &kp ENTER  &kp BACKSPACE  &lt 1 DEL  &mt RGUI LC(LS(M))
             >;
         };
 
         lower_layer {
             bindings = <
-               &kp TILDE  &kp F1    &kp F2       &kp F3         &kp F4             &kp F5               &kp F6         &kp F7        &kp F8     &kp F9          &kp F10             &kp EQUAL
+               &kp GRAVE  &kp F1    &kp F2       &kp F3         &kp F4             &kp F5               &kp F6         &kp F7        &kp F8     &kp F9          &kp F10             &kp EQUAL
 &kp F11          &kp TAB  &trans  &kp HOME  &kp C_RESET      &kp PG_UP    &kp C_VOLUME_UP      &kp C_VOLUME_UP      &kp PG_UP   &kp C_RESET   &kp HOME       &kp INSERT            &kp DELETE  &mt RGUI F12
          &mt LSHFT LSHFT  &trans  &kp LEFT       &kp UP      &kp RIGHT         &kp K_MUTE           &kp K_MUTE       &kp LEFT  &kp UP_ARROW  &kp RIGHT  &kp PRINTSCREEN  &mt RSHFT SCROLLLOCK
          &mt LCTRL LCTRL  &trans   &kp END     &kp DOWN  &kp PAGE_DOWN  &kp C_VOLUME_DOWN    &kp C_VOLUME_DOWN  &kp PAGE_DOWN      &kp DOWN    &kp END  &kp PAUSE_BREAK       &mt RCTRL RCTRL
